@@ -5,8 +5,8 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="container max-w-[1280px] mx-auto bg-color">
-      <div className="flex justify-between items-center pt-5">
+    <div className="container max-w-[1280px] mx-auto bg-color ">
+      <div className="flex justify-between items-center pt-5 px-5">
         <div className="flex items-center">
           {/* Website Logo */}
           <Link href="/">
