@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font  */
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.work-sans-regular {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.work-sans-bold {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* text and bg colors  */
+.bg-color {
+  background-color: #2b2b2b;
+}
+.bg-color-secondary {
+  background-color: #3b3b3b;
+}
+.bg-callToAction {
+  background-color: #a259ff;
+}
+.text-caption {
+  color: #858584;
+}
+.text-blueAccent {
+  color: #377df7;
+}
+.text-redAccent {
+  color: #ff7262;
+}
+.bg-gradient {
+  background: linear-gradient(to right, #a259ff 0%, #ff6250 100%);
+}
+.bg-gradient-secondary {
+  background: linear-gradient(to right, #a259ff 0%, #377df7 100%);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
