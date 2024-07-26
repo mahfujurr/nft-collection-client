@@ -1,3 +1,4 @@
+import ImageCaption from "@/components/Shared/ImageCaption";
 import Image from "next/image";
 import React from "react";
 
@@ -13,18 +14,8 @@ const HeroImage = () => {
         priority={true} // Optional: Prioritize loading the image
         className="rounded-t-2xl"
       />
-      <div className="p-5 flex flex-col gap-3 bg-color-secondary rounded-b-2xl">
-        <p className="font-semibold text-[22px]">Space Walking</p>
-        <div className="flex gap-3">
-          <Image
-            src="/hero-avatar.png"
-            alt="Hero section image"
-            width={24} // Original width of the image or desired width ratio
-            height={24} // Original height of the image or desired height ratio
-            className="rounded-full"
-          />
-          <p className="text-base">Animekid</p>
-        </div>
+      <div className="p-5  bg-color-secondary rounded-b-2xl">
+        <ImageCaption path={"/hero-avatar.png"} heading={'Space Walking'} name={'Animekid'}/>
       </div>
     </div>
   );

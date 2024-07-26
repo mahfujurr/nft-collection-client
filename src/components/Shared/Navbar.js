@@ -264,7 +264,7 @@ const Navbar = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="btn btn-ghost"
+            className="btn "
             aria-label="Toggle Menu"
           >
             <svg
