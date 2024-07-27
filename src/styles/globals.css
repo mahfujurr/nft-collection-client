@@ -33,6 +33,12 @@
 .bg-callToAction {
   background-color: #a259ff;
 }
+.text-callToAction {
+  color: #a259ff;
+}
+.border-callToAction {
+  border-color: #a259ff;
+}
 .text-caption {
   color: #858584;
 }
